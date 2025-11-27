@@ -35,6 +35,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("org.commonmark:commonmark:0.24.0")
+    runtimeOnly("com.mysql:mysql-connector-j")
 }
 
 tasks.withType<Test> {
